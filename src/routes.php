@@ -1,5 +1,5 @@
 <?php
 
 //
-Route::post('/laravel-inline-editor', 'swatty007\LaravelInlineEditor\Http\InlineController@index');
+Route::post('/laravel-inline-editor', 'san4aus\LaravelInlineEditor\Http\InlineController@index');
 

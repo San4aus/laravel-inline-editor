@@ -1,8 +1,8 @@
 <?php
 
-namespace swatty007\LaravelInlineEditor;
+namespace san4aus\LaravelInlineEditor;
 
-use swatty007\LaravelInlineEditor\Models\LaravelInlineEditor;
+use san4aus\LaravelInlineEditor\Models\LaravelInlineEditor;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
 

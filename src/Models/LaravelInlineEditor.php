@@ -1,12 +1,12 @@
 <?php
 
-namespace swatty007\LaravelInlineEditor\Models;
+namespace san4aus\LaravelInlineEditor\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class LaravelInlineEditor
- * @package swatty007\LaravelInlineEditor\Models
+ * @package san4aus\LaravelInlineEditor\Models
  *
  * @property integer $id
  * @property string  $key

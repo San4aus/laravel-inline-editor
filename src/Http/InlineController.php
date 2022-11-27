@@ -1,6 +1,6 @@
 <?php
 
-namespace swatty007\LaravelInlineEditor\Http;
+namespace san4aus\LaravelInlineEditor\Http;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

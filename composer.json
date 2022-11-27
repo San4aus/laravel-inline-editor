@@ -1,5 +1,5 @@
 {
-    "name": "San4aus/laravel-inline-editor",
+    "name": "san4aus/laravel-inline-editor",
     "description": "Laravel package, which allows inline editing of model specific content blocks.",
     "license": "MIT",
     "authors": [
@@ -16,18 +16,18 @@
     "extra": {
         "laravel": {
             "providers": [
-                "swatty007\\LaravelInlineEditor\\InlineEditorServiceProvider"
+                "san4aus\\LaravelInlineEditor\\InlineEditorServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "swatty007\\LaravelInlineEditor\\": "src/"
+            "san4aus\\LaravelInlineEditor\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "swatty007\\LaravelInlineEditor\\Tests\\": "tests/"
+            "san4aus\\LaravelInlineEditor\\Tests\\": "tests/"
         }
     },
     "scripts": {
