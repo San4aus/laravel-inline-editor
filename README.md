@@ -1,9 +1,9 @@
 Inline Editor for Laravel based projects
 ================
-[![Latest Stable Version](https://poser.pugx.org/san4aus/laravel-inline-editor/v/stable)](https://packagist.org/packages/san4aus/laravel-inline-editor)
-[![Latest Unstable Version](https://poser.pugx.org/san4aus/laravel-inline-editor/v/unstable)](https://packagist.org/packages/san4aus/laravel-inline-editor)
-[![Total Downloads](https://poser.pugx.org/san4aus/laravel-inline-editor/downloads)](https://packagist.org/packages/san4aus/laravel-inline-editor)
-[![License](https://poser.pugx.org/san4aus/laravel-inline-editor/license)](https://packagist.org/packages/san4aus/laravel-inline-editor)
+[![Latest Stable Version](https://poser.pugx.org/San4aus/laravel-inline-editor/v/stable)](https://packagist.org/packages/San4aus/laravel-inline-editor)
+[![Latest Unstable Version](https://poser.pugx.org/San4aus/laravel-inline-editor/v/unstable)](https://packagist.org/packages/San4aus/laravel-inline-editor)
+[![Total Downloads](https://poser.pugx.org/San4aus/laravel-inline-editor/downloads)](https://packagist.org/packages/San4aus/laravel-inline-editor)
+[![License](https://poser.pugx.org/San4aus/laravel-inline-editor/license)](https://packagist.org/packages/San4aus/laravel-inline-editor)
 
 Simple inline editor toolbar, to update the content of any HTML block, 
 or specific DB table.
@@ -15,7 +15,7 @@ with some additional functionality and updated dependencies.
 
 Download this git repo, or install it via composer:
 
-`composer require san4aus/laravel-inline-editor`
+`composer require San4aus/laravel-inline-editor`
 
 Also make sure to get our npm dependencies:
 
@@ -30,7 +30,7 @@ Add the following to your config file:
 // config/app.php
 'providers' => [
     ...
-    san4aus\LaravelInlineEditor\InlineEditorServiceProvider::class,
+    swatty007\LaravelInlineEditor\InlineEditorServiceProvider::class,
 ],
 ```
 

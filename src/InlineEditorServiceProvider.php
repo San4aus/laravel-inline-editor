@@ -1,6 +1,6 @@
 <?php
 
-namespace san4aus\LaravelInlineEditor;
+namespace swatty007\LaravelInlineEditor;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
@@ -51,11 +51,11 @@ class InlineEditorServiceProvider extends ServiceProvider
     protected function bootBladeDirective()
     {
         Blade::directive('inlineEditor', function ($expression) {
-            return "<?php if (! san4aus\LaravelInlineEditor\InlineEditor::setUp({$expression})) { ?>";
+            return "<?php if (! swatty007\LaravelInlineEditor\InlineEditor::setUp({$expression})) { ?>";
         });
 
         Blade::directive('endInlineEditor', function () {
-            return "<?php } echo san4aus\LaravelInlineEditor\InlineEditor::tearDown() ?>";
+            return "<?php } echo swatty007\LaravelInlineEditor\InlineEditor::tearDown() ?>";
         });
     }
 }
