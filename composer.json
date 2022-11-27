@@ -33,7 +33,13 @@
     "scripts": {
         "test": "phpunit"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/San4aus/laravel-inline-editor"
+        }
+    ],
     "require-dev": {
-        "phpunit/phpunit": "^5.4"
+        "phpunit/phpunit": "^8.0"
     }
 }
